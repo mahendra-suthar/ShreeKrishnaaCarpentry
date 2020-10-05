@@ -3,7 +3,7 @@ from datetime import datetime
 import bson
 import json
 
-elastic = Elasticsearch('http://192.168.1.105:9200', http_auth=('elastic','elastic@pb1'))
+elastic = Elasticsearch()
 print("--------elas",elastic)
 
 
